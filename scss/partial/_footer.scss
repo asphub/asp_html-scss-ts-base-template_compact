@@ -1,0 +1,4 @@
+footer.footer {
+  color: map-get($theme, footer-text);
+  background: map-get($theme, footer-bg);
+}

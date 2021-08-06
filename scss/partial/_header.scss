@@ -1,0 +1,4 @@
+header.header {
+  color: map-get($theme, header-text);
+  background: map-get($theme, header-bg);
+}

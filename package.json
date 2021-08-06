@@ -1,0 +1,36 @@
+{
+  "name": "asp_html-scss-ts-base-template_compact",
+  "version": "1.0.0",
+  "title": "ASP HTML-SCSS-TS base template",
+  "description": "ASP HTML-SCSS-TS base template",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "browser-sync": "^2.27.4",
+    "delete": "^1.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-ignore": "^3.0.0",
+    "gulp-livereload": "^4.0.2",
+    "gulp-purgecss": "^4.0.3",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "nitro-otp": "^0.5.0",
+    "nitro-popup": "^0.0.9",
+    "sass": "^1.37.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "author": "ASP",
+  "license": "MIT"
+}

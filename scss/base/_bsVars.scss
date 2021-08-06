@@ -1,0 +1,57 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+$grid-columns: 24;
+$grid-gutter-width: 30px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1460px,
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1420px,
+);
+
+$border-radius: 0px;
+$navbar-dark-color: map-get($theme, header-text);
+$navbar-brand-font-size: 24px;
+$navbar-height: 100px;
+// $custom-checkbox-indicator-icon-checked: none;
+// $custom-checkbox-indicator-icon-indeterminate: none;
+// $custom-radio-indicator-icon-checked: none;
+// $custom-select-indicator: none;
+// $form-feedback-icon-valid: none;
+// $form-feedback-icon-invalid: none;
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
+// $carousel-control-prev-icon-bg: none;
+// $carousel-control-next-icon-bg: none;
+$colors: (
+  primary: map-get($color, primary),
+  success: map-get($color, success),
+  info: map-get($color, info),
+  warning: map-get($color, warning),
+  danger: map-get($color, danger),
+  accent: map-get($color, accent),
+  light: map-get($color, light),
+  dark: map-get($color, dark),
+);
+$theme-colors: (
+  primary: map-get($color, primary),
+  success: map-get($color, success),
+  info: map-get($color, info),
+  warning: map-get($color, warning),
+  danger: map-get($color, danger),
+  accent: map-get($color, accent),
+  light: map-get($color, light),
+  dark: map-get($color, dark),
+);

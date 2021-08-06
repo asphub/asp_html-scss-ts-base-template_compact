@@ -1,0 +1,37 @@
+::-moz-selection,
+::selection {
+  background: rgba(map-get($theme, selection), 0.3);
+}
+
+html,
+body {
+  width: 100%;
+  font-size: $baseFontSize;
+}
+
+body {
+  font-weight: 400;
+  color: map-get($theme, text);
+  background: map-get($theme, bg);
+  font-family: map-get($theme, fontFamily);
+  overflow: scroll; // /* has to be scroll, not auto
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  text-rendering: auto;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  // -webkit-backface-visibility: hidden;
+}
+
+a,
+button {
+  & > * {
+    pointer-events: none;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto !important;
+}

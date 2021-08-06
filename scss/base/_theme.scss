@@ -1,0 +1,67 @@
+$baseFontSize: 15px;
+$fontFamily: "Roboto", sans-serif;
+$scFontFamily: "Roboto", sans-serif;
+
+// COMMON FONT CHART
+// -----------------
+$fontUL: 100; // 'fontName ultralight', sans-serif;
+$fontT: 200; // 'fontName thin', sans-serif;
+$fontL: 300; // 'fontName light', sans-serif;
+$font: 400; // 'fontName regular', sans-serif;
+$fontM: 500; // 'fontName medium', sans-serif;
+$fontSB: 600; // 'fontName semibold', sans-serif;
+$fontB: 700; // 'fontName bold', sans-serif;
+$fontH: 800; // 'fontName heavy', sans-serif;
+$fontBK: 900; // 'fontName black', sans-serif;
+
+$theme: (
+  baseFontSize: $baseFontSize,
+  fontFamily: $fontFamily,
+  font: $font,
+  fontL: $fontL,
+  fontT: $fontT,
+  fontM: $fontM,
+  fontB: $fontB,
+  fontH: $fontH,
+  fontUL: $fontUL,
+  fontSB: $fontSB,
+  fontBK: $fontBK,
+  text: #444,
+  write: #fff,
+  bg: #f0f0f0,
+  link: #00558b,
+  brdr: #d5d5d7,
+  matBg: #edeef0,
+  color: #00558b,
+  accent: #05ac7d,
+  selection: #0072ad,
+  header-link: #fff,
+  header-bg: #00558b,
+  header-text: #fff,
+  footer-text: #fff,
+  footer-bg: #252525,
+  footer-link: #00558b,
+  types: (
+    primary: #00558b,
+    success: #00997a,
+    info: #006ed0,
+    warning: #ffa200,
+    danger: #d9171e,
+    accent: #05ac7d,
+    light: #fff,
+    dark: #000,
+  ),
+  contrast: (
+    primary: #fff,
+    success: #333,
+    info: #fff,
+    warning: #333,
+    danger: #fff,
+    accent: #333,
+    light: #000,
+    dark: #fff,
+  ),
+);
+
+$color: map-get($theme, types);
+$cont: map-get($theme, contrast);
