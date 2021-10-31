@@ -1,6 +1,6 @@
 /*!
- * Author: ASP, http://www.ASP.com/
- * Copyright @ 2020 ASP Consultancy Services
+ * Author: ASP
+ * Copyright @ 2015 - 2021 asphub
  */
 
 var aniGroup = "bounceIn bounceInDown bounceInLeft bounceInRight bounceInUp fadeIn fadeInDown fadeInDownBig fadeInLeft fadeInLeftBig fadeInRight fadeInRightBig fadeInUp fadeInUpBig flip flipInX flipInY lightSpeedIn rotateIn rotateInDownLeft rotateInDownRight rotateInUpLeft rotateInUpRight slideInUp slideInDown slideInLeft slideInRight zoomIn zoomInDown zoomInLeft zoomInRight zoomInUp hinge jackInTheBox rollIn bounceOut bounceOutDown bounceOutLeft bounceOutRight bounceOutUp fadeOut fadeOutDown fadeOutDownBig fadeOutLeft fadeOutLeftBig fadeOutRight fadeOutRightBig fadeOutUp fadeOutUpBig flipOutX flipOutY lightSpeedOut rotateOut rotateOutDownLeft rotateOutDownRight rotateOutUpLeft rotateOutUpRight slideOutUp slideOutDown slideOutLeft slideOutRight zoomOut zoomOutDown zoomOutLeft zoomOutRight zoomOutUp rollOut bounce flash pulse rubberBand shake swing tada wobble jello";
