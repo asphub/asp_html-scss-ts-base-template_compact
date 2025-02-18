@@ -5,7 +5,7 @@
   "description": "ASP HTML-SCSS-TS base template",
   "main": "index.html",
   "dependencies": {
-    "bootstrap": "^5.1.0",
+    "bootstrap": "^5.3.3",
     "typescript": "^4.3.5"
   },
   "devDependencies": {
@@ -31,6 +31,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp"
   },
-  "author": "ASP",
+  "repository": {
+    "url": "https://github.com/asphub/asp_html-scss-ts-base-template_compact"
+  },
+  "contributors": [
+    "Ajith S Punalur"
+  ],
+  "author": "https://github.com/asphub",
   "license": "MIT"
 }
